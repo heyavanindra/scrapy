@@ -12,7 +12,7 @@ const PaperTypes1: FunctionComponent<PaperTypes1Type> = ({
     <div className={[styles.paperTypes, className].join(" ")}>
       <div className={styles.paperPrices}>
         <div className={styles.paperList}>
-          <div className={styles.paperItems}>
+        <div className={styles.paperItems}>
             <div className={styles.paperNames}>
               <div className={styles.paperNamesChild} />
               <div className={styles.paperNameValues}>
@@ -26,9 +26,17 @@ const PaperTypes1: FunctionComponent<PaperTypes1Type> = ({
               <div className={styles.rs14kg}>RS 14/kg</div>
             </div>
           </div>
-          <div className={styles.paperItems1}>
-            <div className={styles.rectangleParent}>
-              <div className={styles.frameChild} />
+          <div className={styles.paperItems}>
+            <div className={styles.paperNames}>
+              <div className={styles.paperNamesChild} />
+              <div className={styles.paperNameValues}>
+                <img
+                  className={styles.papersRortdynz71Icon}
+                  loading="lazy"
+                  alt=""
+                  src="/newspaper-report.png"
+                />
+              </div>
               <div className={styles.rs14kg}>RS 14/kg</div>
             </div>
           </div>

@@ -8,6 +8,8 @@ export type FrameComponent3Type = {
   className?: string;
 };
 
+
+
 const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
   className = "",
 }) => {
