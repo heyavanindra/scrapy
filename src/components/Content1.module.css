@@ -1,0 +1,133 @@
+.fluctuatingPricesChild {
+  width: 1363px;
+  height: 156px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-seagreen-200);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.notes {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 65px;
+  z-index: 1;
+}
+.thePricesMayVaryWithFluct {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.thePricesMayContainer {
+  position: relative;
+  z-index: 1;
+}
+.thePricesMayVaryWithFluctWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.i {
+  font-family: var(--font-inter);
+}
+.pricesMayBeDifferentForBu {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.fluctuatingPrices {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-seagreen-200);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-15xl) var(--padding-16xl);
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.normalRecyclables {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.content,
+.pricing,
+.recyclables {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.recyclables {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-486xl) 0 var(--padding-489xl);
+  font-size: var(--font-size-17xl);
+}
+.content,
+.pricing {
+  max-width: 100%;
+}
+.pricing {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-37xl);
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-20xl) 0 var(--padding-19xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-700);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .recyclables {
+    padding-left: var(--padding-235xl);
+    padding-right: var(--padding-233xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .normalRecyclables {
+    font-size: var(--font-size-10xl);
+  }
+  .recyclables {
+    padding-left: var(--padding-108xl);
+    padding-right: var(--padding-107xl);
+    box-sizing: border-box;
+  }
+  .pricing {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .notes {
+    font-size: var(--font-size-lg);
+  }
+  .normalRecyclables {
+    font-size: var(--font-size-3xl);
+  }
+  .recyclables {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

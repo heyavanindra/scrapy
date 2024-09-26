@@ -1,0 +1,246 @@
+.smartWashingMachine13 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.washingMachineImage {
+  margin-left: -694px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1426px 0 0;
+}
+.bikeCarChild {
+  width: 170px;
+  height: 170px;
+  position: relative;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  display: none;
+}
+.bikeicon1 {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.vehicleImages {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+}
+.rs2100piece {
+  position: relative;
+  z-index: 1;
+}
+.bikeCar,
+.caricon1Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bikeCar {
+  flex: 1;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-8xs) var(--padding-20xl)
+    var(--padding-lg);
+  gap: var(--gap-xl);
+  min-width: 110px;
+}
+.caricon1Wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+}
+.rs20000piece {
+  height: 24px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  word-break: break-all;
+  z-index: 1;
+}
+.bikeCar1 {
+  flex: 0.7241;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-24xl)
+    var(--padding-24xl);
+  gap: var(--gap-base);
+  min-width: 110px;
+}
+.vehicleIcons,
+.vehicleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.vehicleIcons {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 85px;
+}
+.vehicleWrapper {
+  width: 435px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.bike {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.bikeWrapper,
+.car {
+  flex: 1;
+  min-width: 123px;
+}
+.bikeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.car {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameParent,
+.vehicleWrapperParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 71px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-700);
+}
+.vehicleWrapperParent {
+  width: 449px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.appliances,
+.desktop2,
+.paper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paper {
+  width: 1232px;
+  flex-direction: column;
+  gap: 53px;
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-seagreen-100);
+  font-family: var(--font-inter);
+}
+.appliances,
+.desktop2 {
+  box-sizing: border-box;
+}
+.appliances {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 89px 0 119px;
+  gap: 634px;
+  max-width: 100%;
+}
+.desktop2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-mintcream-100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 330px;
+  gap: 69px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .washingMachineImage {
+    padding-top: 927px;
+    box-sizing: border-box;
+  }
+  .appliances {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .washingMachineImage {
+    padding-top: 603px;
+    box-sizing: border-box;
+  }
+  .paper {
+    gap: 26px;
+  }
+  .appliances {
+    gap: 317px;
+    padding-left: var(--padding-40xl);
+    padding-right: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .desktop2 {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rs20000piece,
+  .rs2100piece {
+    font-size: var(--font-size-base);
+  }
+  .bikeCar1 {
+    flex: 1;
+  }
+  .vehicleIcons {
+    gap: var(--gap-23xl);
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: 35px;
+    flex-wrap: wrap;
+  }
+  .appliances {
+    gap: 158px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .desktop2 {
+    gap: var(--gap-mid);
+  }
+}

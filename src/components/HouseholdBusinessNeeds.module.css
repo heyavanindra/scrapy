@@ -1,0 +1,167 @@
+.forHouseholds {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.forHouseholdsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-29xl) 0 var(--padding-30xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.xcheckS1k62cb8i1Icon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.householdBenefitIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.onDemandDoorstepPickups {
+  width: 416px;
+  display: inline-block;
+  max-width: 100%;
+}
+.accurateDigitalWeighing,
+.onDemandDoorstepPickups,
+.safetyTrained {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.accurateDigitalWeighing {
+  width: 356px;
+  display: inline-block;
+  max-width: 100%;
+}
+.safetyTrained {
+  align-self: stretch;
+}
+.onDemandDoorstepPickupsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  min-width: 279px;
+  max-width: 100%;
+}
+.householdBenefits {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  font-family: var(--font-inria-sans);
+}
+.householdContent,
+.householdContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.householdContent {
+  align-self: stretch;
+  gap: var(--gap-12xl);
+}
+.householdContentWrapper {
+  padding: 0 0 var(--padding-54xl);
+  box-sizing: border-box;
+}
+.homeIllust1Vqbxsy5za1Icon {
+  height: 391px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 367px;
+}
+.householdBusinessNeeds {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-129xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-700);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1325px) {
+  .householdBusinessNeeds {
+    gap: var(--gap-55xl);
+  }
+}
+@media screen and (max-width: 1125px) {
+  .householdContentWrapper {
+    flex: 1;
+  }
+  .householdBusinessNeeds {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .accurateDigitalWeighing,
+  .forHouseholds,
+  .onDemandDoorstepPickups,
+  .safetyTrained {
+    font-size: var(--font-size-7xl);
+  }
+  .householdContent {
+    gap: var(--gap-mini);
+  }
+  .householdContentWrapper {
+    min-width: 100%;
+  }
+  .householdBusinessNeeds {
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .forHouseholds {
+    font-size: var(--font-size-lgi);
+  }
+  .forHouseholdsWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .accurateDigitalWeighing,
+  .onDemandDoorstepPickups,
+  .safetyTrained {
+    font-size: var(--font-size-lgi);
+  }
+  .householdBenefits {
+    flex-wrap: wrap;
+  }
+  .homeIllust1Vqbxsy5za1Icon {
+    min-width: 100%;
+  }
+  .householdBusinessNeeds {
+    gap: var(--gap-lg);
+  }
+}

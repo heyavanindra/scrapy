@@ -1,0 +1,313 @@
+.metalNamesChild {
+  width: 170px;
+  height: 170px;
+  position: relative;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  display: none;
+}
+.beam1Icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.metalNameValues {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 var(--padding-xs);
+}
+.rs25kg {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+  z-index: 1;
+}
+.metalNames {
+  flex: 1;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-17xl) var(--padding-mini)
+    var(--padding-24xl);
+  gap: var(--gap-25xl);
+}
+.hook1Wrapper,
+.metalItems,
+.metalNames {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.metalItems {
+  height: 170px;
+  flex-direction: column;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.hook1Wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+}
+.rs37kg {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-lgi) var(--padding-mini)
+    var(--padding-20xl);
+  gap: var(--gap-25xl);
+}
+.beer1Wrapper,
+.metalItems1,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.metalItems1 {
+  height: 170px;
+  width: 184px;
+  flex-direction: column;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.beer1Wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+}
+.rs105kg {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  flex: 1;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-mini)
+    var(--padding-16xl);
+  gap: var(--gap-25xl);
+}
+.brassNuckle1Wrapper,
+.metalItems3,
+.metalItems4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 var(--padding-8xl);
+}
+.metalItems3,
+.metalItems4 {
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-13xl) var(--padding-8xl)
+    var(--padding-16xl);
+  gap: var(--gap-13xl);
+}
+.metalItems4 {
+  width: 170px;
+  box-sizing: border-box;
+  padding: var(--padding-7xl) var(--padding-xl) var(--padding-8xl)
+    var(--padding-22xl);
+  gap: var(--gap-10xl);
+}
+.metalList,
+.metalTypes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.metalList {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.metalTypes {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  color: var(--color-seagreen-100);
+}
+.iron {
+  margin: 0;
+}
+.toGetQuote {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.ironToGetContainer {
+  width: 189px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.steelUtensils {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.utensilTypes {
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-15xl) 0 0;
+  box-sizing: border-box;
+}
+.aluminium {
+  width: 161px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.utensilTypes1 {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.brass {
+  width: 95px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.utensilTypes2 {
+  width: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.copper {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.utensilTypes3,
+.utensils {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.utensilTypes3 {
+  width: 94px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.utensils {
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xl);
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.largeAppliances {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.largeAppliancesWrapper,
+.metal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-418xl) 0 var(--padding-440xl);
+  font-size: var(--font-size-17xl);
+}
+.metal {
+  flex-direction: column;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-700);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .metalList {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .utensils {
+    gap: var(--gap-11xl);
+    flex-wrap: wrap;
+  }
+  .largeAppliancesWrapper {
+    padding-left: var(--padding-210xl);
+    padding-right: var(--padding-199xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .largeAppliances {
+    font-size: var(--font-size-10xl);
+  }
+  .largeAppliancesWrapper {
+    padding-left: var(--padding-95xl);
+    padding-right: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rs105kg,
+  .rs25kg,
+  .rs37kg {
+    font-size: var(--font-size-base);
+  }
+  .largeAppliances {
+    font-size: var(--font-size-3xl);
+  }
+  .largeAppliancesWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

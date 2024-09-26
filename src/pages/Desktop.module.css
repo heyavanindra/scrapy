@@ -1,0 +1,150 @@
+.frameParent {
+  width: 100%; /* Ensure full width */
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 98px;
+  box-sizing: border-box;
+  gap: var(--gap-43xl);
+}
+
+.householdsBusinesses {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(90deg, #478362, #26cf72);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.customerTypesContent,
+.householdsBusinessesHaveDWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.householdsBusinessesHaveDWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0; /* Removed padding for full width */
+  width: 100%; /* Full width */
+  box-sizing: border-box;
+}
+
+.customerTypesContent {
+  width: 100%; /* Ensure content takes full width */
+  flex-direction: column;
+  gap: var(--gap-58xl);
+}
+
+.customerTypesContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0; /* Removed padding to allow full width */
+  width: 100%; /* Full width */
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 34px;
+  font-family: var(--font-inter);
+}
+
+.desktop1 {
+  width: 100vw; /* Make sure the desktop container spans the full viewport */
+  position: relative;
+  background-color: var(--color-mintcream-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0; /* Remove extra padding */
+  box-sizing: border-box;
+  gap: 48px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1325px) {
+  .frameParent {
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+
+  .householdsBusinessesHaveDWrapper {
+    padding: 0; /* Keep padding to zero for responsive behavior */
+    box-sizing: border-box;
+  }
+
+  .customerTypesContent {
+    gap: var(--gap-19xl);
+  }
+
+  .customerTypesContentWrapper {
+    padding-bottom: 99px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .frameParent { 
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .frameParent {
+    gap: var(--gap-12xl);
+  }
+
+  .householdsBusinesses {
+    font-size: 27px;
+  }
+
+  .householdsBusinessesHaveDWrapper {
+    padding: 0; /* Consistent padding across breakpoints */
+    box-sizing: border-box;
+  }
+
+  .customerTypesContent {
+    gap: var(--gap-lgi);
+  }
+
+  .customerTypesContentWrapper {
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+
+  .desktop1 {
+    gap: var(--gap-5xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-mini);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+
+  .householdsBusinesses {
+    font-size: var(--font-size-xl);
+  }
+
+  .householdsBusinessesHaveDWrapper {
+    padding: 0; /* Removed padding for mobile view */
+    box-sizing: border-box;
+  }
+}

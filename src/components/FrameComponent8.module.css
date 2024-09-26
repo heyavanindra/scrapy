@@ -1,0 +1,285 @@
+.contactUs {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.contactMethods {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs);
+}
+.div,
+.phoneIcon1 {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.phoneIcon1 {
+  height: 36.1px;
+  width: 36.1px;
+  object-fit: contain;
+}
+.div {
+  flex: 1;
+}
+.phoneIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-9);
+}
+.emailIcon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.scrappylucknowgmailcom {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.emailAddress {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 198px;
+}
+.emailContainer,
+.phoneNumber {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.phoneNumber {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi-9);
+}
+.customerSupportAvailable {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.findUsHere {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.findUs,
+.supportHours {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.findUs {
+  width: 142px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.supportHours {
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.instagram1Icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.iconShape {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.socialIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.facebookkIcon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 2;
+}
+.socialIcons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.phoneContainer,
+.socialMedia,
+.workingHours {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialMedia {
+  width: 343px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.phoneContainer,
+.workingHours {
+  flex-direction: column;
+}
+.phoneContainer {
+  flex: 1;
+  gap: var(--gap-4xl);
+  min-width: 231px;
+  max-width: 100%;
+}
+.workingHours {
+  padding: var(--padding-88xl) 0 0;
+  box-sizing: border-box;
+  min-width: 210px;
+  margin-left: -4px;
+}
+.contactDetails,
+.contactInfo,
+.phoneEmail {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.phoneEmail {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 20px;
+}
+.contactDetails,
+.contactInfo {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contactDetails {
+  align-self: stretch;
+  gap: var(--gap-mid);
+}
+.contactInfo {
+  padding: var(--padding-46xl) 0 0;
+  box-sizing: border-box;
+  min-width: 561px;
+}
+.footerGraphicIcon {
+  height: 955px;
+  width: 1436.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -548.5px;
+  left: -718.5px;
+  z-index: 1;
+}
+.scrappyLogo2 {
+  height: 284px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 2;
+}
+.footer {
+  justify-content: flex-start;
+  position: relative;
+}
+.contactContainer,
+.contactContainerWrapper,
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contactContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contactContainerWrapper {
+  width: 1429px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1325px) {
+  .contactInfo,
+  .footer,
+  .scrappyLogo2 {
+    flex: 1;
+  }
+  .contactContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .workingHours {
+    flex: 1;
+  }
+  .phoneEmail {
+    flex-wrap: wrap;
+  }
+  .contactInfo,
+  .footer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUs,
+  .div,
+  .scrappylucknowgmailcom {
+    font-size: var(--font-size-lg);
+  }
+  .emailContainer {
+    flex-wrap: wrap;
+  }
+  .customerSupportAvailable,
+  .findUsHere {
+    font-size: var(--font-size-lg);
+  }
+  .socialIcons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .workingHours {
+    margin-left: 0;
+  }
+  .contactInfo {
+    padding-top: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

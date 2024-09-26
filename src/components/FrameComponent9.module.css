@@ -1,0 +1,325 @@
+.smallAppliances {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.smallAppliancesHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-413xl) 0 var(--padding-433xl);
+}
+.lampRadiationMicrowaveChild {
+  width: 170px;
+  height: 170px;
+  position: relative;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  display: none;
+}
+.lamp1Icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.lampRadiationMicrowaveImage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+}
+.rs20kg {
+  width: 109px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.lampRadiationMicrowave {
+  align-self: stretch;
+  flex: 1;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: column;
+  padding: var(--padding-9xl) var(--padding-xl) var(--padding-17xl)
+    var(--padding-12xl);
+  gap: var(--gap-lg);
+}
+.electronicItemsRowOne,
+.lampRadiationMicrowave,
+.radiation1Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.electronicItemsRowOne {
+  height: 170px;
+  width: 184px;
+  flex-direction: column;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.radiation1Wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-smi);
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-17xl)
+    var(--padding-16xl);
+  gap: var(--gap-4xl);
+}
+.electronicItemsRowOne1,
+.generatorImage,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.electronicItemsRowOne1 {
+  height: 170px;
+  width: 180px;
+  flex-direction: column;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.generatorImage {
+  flex-direction: row;
+  padding: 0 var(--padding-9xl) 0 var(--padding-xl);
+}
+.rs30kg {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.generatorItem,
+.rectangleGroup {
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: column;
+}
+.generatorItem {
+  height: 170px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-5xl) var(--padding-17xl)
+    var(--padding-16xl);
+  gap: var(--gap-4xl);
+}
+.rectangleGroup {
+  align-self: stretch;
+  flex: 1;
+  padding: var(--padding-9xl) var(--padding-xl) var(--padding-17xl)
+    var(--padding-18xl);
+  gap: var(--gap-lg);
+}
+.electronicItemsRowOne2,
+.printer,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.electronicItemsRowOne2 {
+  height: 170px;
+  width: 196px;
+  flex-direction: column;
+  padding: 0 var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+}
+.printer {
+  flex-direction: row;
+  padding: 0 var(--padding-mid);
+}
+.printerImage,
+.printerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.printerImage {
+  align-self: stretch;
+  flex: 1;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-smi) var(--padding-16xl);
+  gap: var(--gap-4xl);
+}
+.printerItem {
+  height: 171px;
+  width: 170px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.electronicItems,
+.electronicItemsGrid {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.electronicItemsGrid {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.electronicItems {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.plasticEWaste {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.ewasteCategories,
+.metalEwaste {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 185px;
+  max-width: 189px;
+}
+.metalEwaste {
+  flex: 0.9548;
+  padding: 0 var(--padding-4xs) 0 0;
+  min-width: 195px;
+  max-width: 199px;
+}
+.printerscannerfaxMachine,
+.ups {
+  position: relative;
+  font-weight: 500;
+}
+.ups {
+  flex: 1;
+  display: inline-block;
+  min-width: 186px;
+  max-width: 190px;
+}
+.printerscannerfaxMachine {
+  text-decoration: none;
+  color: inherit;
+}
+.ewasteTypes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-700);
+}
+.smallAppliancesItems {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-xl);
+  color: var(--color-seagreen-100);
+}
+.smallAppliancesItems,
+.smallAppliancesWrapper,
+.smallAppliancesWrapperWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.smallAppliancesWrapper {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-43xl);
+}
+.smallAppliancesWrapperWrapper {
+  width: 1217px;
+  flex-direction: row;
+  padding: 0 var(--padding-sm) var(--padding-2xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-700);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .smallAppliancesHeading {
+    padding-left: var(--padding-207xl);
+    padding-right: var(--padding-197xl);
+    box-sizing: border-box;
+  }
+  .electronicItemsGrid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ewasteTypes {
+    flex-wrap: wrap;
+  }
+  .smallAppliancesWrapper {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .smallAppliances {
+    font-size: var(--font-size-10xl);
+  }
+  .smallAppliancesHeading {
+    padding-left: var(--padding-94xl);
+    padding-right: var(--padding-89xl);
+    box-sizing: border-box;
+  }
+  .ewasteTypes {
+    gap: var(--gap-9xl);
+  }
+  .smallAppliancesWrapper {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .smallAppliances {
+    font-size: var(--font-size-3xl);
+  }
+  .smallAppliancesHeading {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .rs20kg,
+  .rs30kg {
+    font-size: var(--font-size-base);
+  }
+  .metalEwaste {
+    flex: 1;
+  }
+}

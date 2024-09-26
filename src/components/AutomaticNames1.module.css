@@ -1,0 +1,52 @@
+.rs20kg {
+  position: absolute;
+  top: 121px;
+  left: 43px;
+  display: inline-block;
+  width: 145px;
+  height: 24px;
+  z-index: 1;
+}
+.automaticImageTypes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mintcream-200);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.waterHeater1Icon {
+  position: absolute;
+  top: 38px;
+  left: 55px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  z-index: 1;
+}
+.automaticImages {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 170px;
+}
+.automaticNames {
+  height: 170px;
+  width: 187px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-seagreen-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .rs20kg {
+    font-size: var(--font-size-base);
+  }
+}
